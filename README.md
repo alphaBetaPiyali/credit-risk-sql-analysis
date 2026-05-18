@@ -43,6 +43,27 @@ To identify patterns in borrower behavior and loan features that are associated 
 
 \- `README.md` → Project overview
 
+## File Structure
+
+credit-risk-sql-analysis/
+│
+├── sql/                     # SQL scripts
+│   ├── analysis.sql
+│   ├── default_predictor.sql
+│   └── copy_loans_from_CSV.sql
+│
+├── data/                    # Raw datasets
+│   └── credit_risk_dataset.csv
+│
+├── results/                 # Output tables, reports
+│   └── result.xlsx
+│
+├── docs/                    # Notes, documentation
+│   └── Credit Risk Analysis using SQL.txt
+│
+├── README.md                # Project overview
+└── .gitignore               # Ignore unnecessary files (e.g., desktop.ini)
+
 
 
 ## Key Analyses Performed
@@ -114,17 +135,6 @@ To identify patterns in borrower behavior and loan features that are associated 
 * Past default history is a strong indicator of future default
 * Lower income groups tend to have higher default percentages
 * Interest rate groups show variation in risk, but may reflect lender pricing strategy rather than borrower quality
-
-## Tools Used
-
-* SQL (aggregation, CASE statements, window functions)
-
-## File Structure
-
-credit-risk-sql-analysis/
-│
-├── sql/
-│   └── analysis.sql
 
 ## Next Steps
 
