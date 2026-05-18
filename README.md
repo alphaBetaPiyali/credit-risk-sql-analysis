@@ -65,6 +65,7 @@ credit-risk-sql-analysis/
 └── .gitignore        # Ignore unnecessary files (e.g., desktop.ini)
 
 
+
 ## Key Analyses Performed
 
 ### 1\. Overall Default Rate
