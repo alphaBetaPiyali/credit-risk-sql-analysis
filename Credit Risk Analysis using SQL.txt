@@ -1,0 +1,29 @@
+Problem: Analyze borrower data to understand:
+default rates
+income impact on default
+loan distribution
+
+Dataset:
+Source: Kaggle (Credit Risk Dataset) 
+https://www.kaggle.com/datasets/laotse/credit-risk-dataset
+Contains borrower financial details
+
+What I Did:
+Calculated overall default rate
+Analyzed income vs default probability
+Created income buckets
+Evaluated loan distribution
+
+
+Key Insight:
+Loan percent income (debt burden) is the strongest predictor of default in this dataset, showing the highest separation in default rates across segments.
+
+Past default remains an important secondary predictor, as it increases default probability even within high-risk groups.
+
+Interest rate also captures risk, likely reflecting lender assessment of borrower risk, though its predictive strength is lower than loan burden.
+While high interest rates indicate higher individual default risk, the medium interest segment represents a larger share of total portfolio risk due to higher borrower concentration.
+
+Home ownership and income show weaker and less consistent separation, likely acting as proxy indicators of financial stability rather than primary drivers.
+
+
+
