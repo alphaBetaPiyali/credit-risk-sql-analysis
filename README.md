@@ -37,7 +37,7 @@ To identify patterns in borrower behavior and loan features that are associated 
 
 \- `queries/` → SQL scripts for analysis
 
-\- `data/` → Loan dataset (if shareable or synthetic)
+\- `data/` → Loan dataset
 
 \- `results/` → Output tables, aggregated metrics
 
