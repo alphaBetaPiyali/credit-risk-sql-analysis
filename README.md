@@ -47,23 +47,22 @@ To identify patterns in borrower behavior and loan features that are associated 
 
 credit-risk-sql-analysis/
 │
-├── sql/                     # SQL scripts
+├── sql/              # SQL scripts
 │   ├── analysis.sql
 │   ├── default_predictor.sql
 │   └── copy_loans_from_CSV.sql
 │
-├── data/                    # Raw datasets
+├── data/             # Raw datasets
 │   └── credit_risk_dataset.csv
 │
-├── results/                 # Output tables, reports
+├── results/          # Output tables, reports
 │   └── result.xlsx
 │
-├── docs/                    # Notes, documentation
+├── docs/             # Notes & documentation
 │   └── Credit Risk Analysis using SQL.txt
 │
-├── README.md                # Project overview
-└── .gitignore               # Ignore unnecessary files (e.g., desktop.ini)
-
+├── README.md         # Project overview
+└── .gitignore        # Ignore unnecessary files (e.g., desktop.ini)
 
 
 ## Key Analyses Performed
