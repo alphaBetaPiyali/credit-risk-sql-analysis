@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Credit Risk Analysis using SQL
 
 ## Overview
@@ -135,3 +136,7 @@ credit-risk-sql-analysis/
 
 This project focuses on analytical understanding of risk drivers, not just querying data. It is an initial step toward building credit risk models and forecasting systems.
 
+=======
+# credit-risk-sql-analysis
+This project analyzes a loan dataset to understand key factors affecting loan default risk. The analysis is performed using SQL by aggregating borrower and loan characteristics.
+>>>>>>> 6c070115492fb76d2c41e6bbefb408f4a72d16e3
